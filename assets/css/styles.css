@@ -530,6 +530,33 @@ h1 {
   gap: 14px;
 }
 
+.partners-block {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px dashed var(--border);
+}
+
+.partners-block h3 {
+  margin: 0 0 10px;
+}
+
+.partners-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.partners-list li {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  color: var(--muted);
+  background: #fafafa;
+}
+
 .hero h1,
 .hero .hero-text,
 .hero .hero-actions,
